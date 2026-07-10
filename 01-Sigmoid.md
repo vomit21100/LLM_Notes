@@ -1,6 +1,6 @@
 ## 1. Sigmoid 函數與導數
 
-![alt text](Images\01-Sigmoid-001.png)
+![alt text](Images/01-Sigmoid-001.png)
 
 * $\sigma(x) = \dfrac{1}{1+e^{-x}}$
 
@@ -17,7 +17,7 @@
 ## 3. Sigmoid 的使用位置
 Sigmoid 在模型中使用的位置是神經元中**啟動函數**的部分
 
-![](Images\01-Sigmoid-002.png)
+![](Images/01-Sigmoid-002.png)
 
 ## 4. Sigmoid 的問題
 Sigmoid 的問題其實在第一章的右半邊就有體現，主要為以下幾點
@@ -33,7 +33,7 @@ Sigmoid 的問題其實在第一章的右半邊就有體現，主要為以下幾
 ### 5.1 Tanh
 
 1. 圖形
-![](Images\01-Sigmoid-003.webp)
+![](Images/01-Sigmoid-003.webp)
 
 * $\tanh(x) = \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}}$
 * $\tanh'(x) = 1 - \tanh^2(x)$
@@ -44,7 +44,7 @@ Tanh的函式基本上就類似於Sigmoid的向下平移版本，同時在輸入
 ### 5.2 Relu
 
 1. 圖形
-![](Images\01-Sigmoid-004.webp)
+![](Images/01-Sigmoid-004.webp)
 
 * $\text{ReLU}(x) = \max(0, x)$
 2. 說明
