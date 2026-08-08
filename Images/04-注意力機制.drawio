@@ -1,4 +1,4 @@
-<mxfile host="Electron" pages="3">
+<mxfile host="Electron" pages="7">
   <diagram name="第 1 页" id="QaQoWJ7SW0rt8_RTgNGe">
     <mxGraphModel dx="1689" dy="996" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -331,7 +331,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QXedff6vxkVgjJwX9qBn" name="第 3 页">
-    <mxGraphModel dx="1689" dy="996" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1414" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -511,6 +511,1082 @@
             <mxPoint x="560" y="440" as="sourcePoint" />
             <mxPoint x="580" y="310" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="nt1gZgvsGlEBBfSCEYsl-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=light-dark(#FF0000,#FF0000);strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="30" width="80" x="520" y="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="w46QOuGRHRKOJsvUvGUu" name="第 4 页">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qkFull-title" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;QK^T 內積矩陣範例（Softmax 之前）：我買了一件紅色的外套跟一雙藍色的鞋子&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="750" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-subtitle" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;橫軸 = K（Key）　縱軸 = Q（Query）　每一格數值 = Q&amp;#183;K^T 原始分數（尚未經過 Softmax 正規化）&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="750" x="40" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-corner" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Q＼K&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="70" x="40" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-k0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;我&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="110" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-k1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;買&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="158" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-k2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;了&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="206" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-k3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;一件&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="254" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-k4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;紅色&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="302" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-k5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;的₁&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="350" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-k6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;外套&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="398" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-k7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;跟&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="446" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-k8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;一雙&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="494" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-k9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;藍色&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="542" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-k10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;的₂&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="590" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-k11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;鞋子&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="638" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-q0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;我&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="70" x="40" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-q1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;買&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="70" x="40" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-q2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;了&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="70" x="40" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-q3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;一件&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="70" x="40" y="252" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-q4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;紅色&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="70" x="40" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-q5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;的₁&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="70" x="40" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-q6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;外套&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="70" x="40" y="354" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-q7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;跟&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="70" x="40" y="388" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-q8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;一雙&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="70" x="40" y="422" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-q9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;藍色&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="70" x="40" y="456" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-q10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;的₂&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="70" x="40" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-q11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;鞋子&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="70" x="40" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v0_0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;1.00&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="110" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v0_1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.55&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="158" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v0_2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.15&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="206" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v0_3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.08&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="254" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v0_4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.12&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="302" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v0_5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.05&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="350" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v0_6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.10&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="398" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v0_7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.15&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="446" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v0_8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.08&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="494" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v0_9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.12&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="542" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v0_10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.05&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="590" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v0_11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.10&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="638" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v1_0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.35&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="110" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v1_1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;1.00&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="158" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v1_2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.50&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="206" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v1_3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.15&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="254" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v1_4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.08&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="302" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v1_5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.12&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="350" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v1_6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.45&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="398" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v1_7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.10&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="446" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v1_8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.15&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="494" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v1_9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.08&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="542" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v1_10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.12&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="590" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v1_11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.42&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="638" y="184" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v2_0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.08&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="110" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v2_1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.75&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="158" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v2_2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;1.00&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="206" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v2_3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.10&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="254" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v2_4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.15&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="302" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v2_5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.08&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="350" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v2_6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.12&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="398" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v2_7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.05&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="446" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v2_8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.10&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="494" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v2_9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.15&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="542" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v2_10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.08&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="590" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v2_11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.12&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="638" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v3_0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.15&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="110" y="252" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v3_1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.08&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="158" y="252" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v3_2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.12&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="206" y="252" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v3_3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;1.00&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="254" y="252" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v3_4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.10&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="302" y="252" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v3_5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.15&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="350" y="252" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v3_6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.80&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="398" y="252" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v3_7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.12&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="446" y="252" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v3_8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.05&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="494" y="252" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v3_9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.10&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="542" y="252" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v3_10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.15&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="590" y="252" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v3_11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.08&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="638" y="252" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v4_0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.10&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="110" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v4_1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.15&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="158" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v4_2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.08&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="206" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v4_3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.12&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="254" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v4_4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;1.00&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="302" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v4_5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.10&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="350" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v4_6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.55&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="398" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v4_7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.08&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="446" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v4_8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.12&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="494" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v4_9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.30&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="542" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v4_10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.10&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="590" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v4_11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.15&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="638" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v5_0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.05&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="110" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v5_1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.10&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="158" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v5_2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.15&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="206" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v5_3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.08&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="254" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v5_4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.12&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="302" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v5_5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;1.00&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="350" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v5_6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.70&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="398" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v5_7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.15&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="446" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v5_8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.08&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="494" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v5_9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.12&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="542" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v5_10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.05&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="590" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v5_11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.10&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="638" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v6_0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.12&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="110" y="354" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v6_1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.05&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="158" y="354" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v6_2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.10&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="206" y="354" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v6_3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.40&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="254" y="354" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v6_4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.90&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="302" y="354" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v6_5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.20&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="350" y="354" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v6_6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;1.00&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="398" y="354" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v6_7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.10&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="446" y="354" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v6_8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.15&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="494" y="354" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v6_9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.08&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="542" y="354" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v6_10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.12&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="590" y="354" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v6_11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.05&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="638" y="354" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v7_0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.08&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="110" y="388" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v7_1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.12&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="158" y="388" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v7_2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.05&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="206" y="388" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v7_3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.10&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="254" y="388" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v7_4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.15&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="302" y="388" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v7_5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.08&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="350" y="388" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v7_6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.35&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="398" y="388" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v7_7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;1.00&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="446" y="388" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v7_8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.10&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="494" y="388" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v7_9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.15&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="542" y="388" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v7_10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.08&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="590" y="388" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v7_11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.35&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="638" y="388" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v8_0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.15&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="110" y="422" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v8_1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.08&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="158" y="422" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v8_2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.12&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="206" y="422" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v8_3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.05&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="254" y="422" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v8_4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.10&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="302" y="422" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v8_5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.15&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="350" y="422" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v8_6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.08&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="398" y="422" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v8_7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.12&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="446" y="422" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v8_8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;1.00&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="494" y="422" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v8_9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.10&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="542" y="422" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v8_10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.15&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="590" y="422" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v8_11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.78&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="638" y="422" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v9_0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.10&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="110" y="456" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v9_1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.15&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="158" y="456" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v9_2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.08&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="206" y="456" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v9_3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.12&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="254" y="456" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v9_4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.28&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="302" y="456" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v9_5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.10&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="350" y="456" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v9_6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.15&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="398" y="456" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v9_7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.08&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="446" y="456" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v9_8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.12&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="494" y="456" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v9_9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;1.00&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="542" y="456" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v9_10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.10&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="590" y="456" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v9_11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.50&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="638" y="456" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v10_0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.05&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="110" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v10_1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.10&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="158" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v10_2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.15&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="206" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v10_3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.08&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="254" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v10_4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.12&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="302" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v10_5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.05&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="350" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v10_6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.10&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="398" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v10_7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.15&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="446" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v10_8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.08&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="494" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v10_9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.12&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="542" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v10_10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;1.00&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="590" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v10_11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.68&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="638" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v11_0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.12&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="110" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v11_1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.05&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="158" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v11_2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.10&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="206" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v11_3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.15&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="254" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v11_4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.08&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="302" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v11_5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.12&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="350" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v11_6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.05&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="398" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v11_7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.10&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="446" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v11_8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.38&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="494" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v11_9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.85&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="542" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v11_10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;0.20&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="590" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-v11_11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;1.00&lt;/font&gt;" vertex="1">
+          <mxGeometry height="34" width="48" x="638" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-h0" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="116" as="sourcePoint" />
+            <mxPoint x="686" y="116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-h1" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="150" as="sourcePoint" />
+            <mxPoint x="686" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-h2" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="184" as="sourcePoint" />
+            <mxPoint x="686" y="184" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-h3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="218" as="sourcePoint" />
+            <mxPoint x="686" y="218" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-h4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="252" as="sourcePoint" />
+            <mxPoint x="686" y="252" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-h5" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="286" as="sourcePoint" />
+            <mxPoint x="686" y="286" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-h6" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="320" as="sourcePoint" />
+            <mxPoint x="686" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-h7" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="354" as="sourcePoint" />
+            <mxPoint x="686" y="354" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-h8" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="388" as="sourcePoint" />
+            <mxPoint x="686" y="388" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-h9" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="422" as="sourcePoint" />
+            <mxPoint x="686" y="422" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-h10" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="456" as="sourcePoint" />
+            <mxPoint x="686" y="456" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-h11" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="490" as="sourcePoint" />
+            <mxPoint x="686" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-h12" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="524" as="sourcePoint" />
+            <mxPoint x="686" y="524" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-h13" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="558" as="sourcePoint" />
+            <mxPoint x="686" y="558" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-vline0" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="116" as="sourcePoint" />
+            <mxPoint x="40" y="558" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-vline1" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="116" as="sourcePoint" />
+            <mxPoint x="110" y="558" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-vline2" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="158" y="116" as="sourcePoint" />
+            <mxPoint x="158" y="558" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-vline3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="206" y="116" as="sourcePoint" />
+            <mxPoint x="206" y="558" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-vline4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="254" y="116" as="sourcePoint" />
+            <mxPoint x="254" y="558" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-vline5" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="302" y="116" as="sourcePoint" />
+            <mxPoint x="302" y="558" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-vline6" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="116" as="sourcePoint" />
+            <mxPoint x="350" y="558" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-vline7" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="398" y="116" as="sourcePoint" />
+            <mxPoint x="398" y="558" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-vline8" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="446" y="116" as="sourcePoint" />
+            <mxPoint x="446" y="558" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-vline9" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="494" y="116" as="sourcePoint" />
+            <mxPoint x="494" y="558" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-vline10" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="542" y="116" as="sourcePoint" />
+            <mxPoint x="542" y="558" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-vline11" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="116" as="sourcePoint" />
+            <mxPoint x="590" y="558" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-vline12" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="638" y="116" as="sourcePoint" />
+            <mxPoint x="638" y="558" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-vline13" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="686" y="116" as="sourcePoint" />
+            <mxPoint x="686" y="558" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkFull-hl1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#FF0000,#FF0000);fillColor=none;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="34" width="48" x="302" y="354" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-hl2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#FF0000,#FF0000);fillColor=none;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="34" width="48" x="542" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-hl3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=4 3;strokeColor=light-dark(#1E88E5,#1E88E5);fillColor=none;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="34" width="48" x="542" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="qkFull-note" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;觀察重點：紅框標示「外套&amp;#8594;紅色」（0.90）與「鞋子&amp;#8594;藍色」（0.85）的高分配對——呼應前文 Q、K 的說明：由&amp;lt;b&amp;gt;名詞（外套／鞋子）發問&amp;lt;/b&amp;gt;「我是什麼顏色？」，再由&amp;lt;b&amp;gt;形容詞（紅色／藍色）負責回答&amp;lt;/b&amp;gt;，因此以名詞為 Query 查詢對應形容詞的分數最高。藍色虛線框「紅色&amp;#8594;藍色」（0.30）則說明儘管兩者語義相近（皆為顏色詞），QK^T 分數仍然偏低，因為在這句話中兩者並非彼此描述的對象。此矩陣中的所有數值皆為 Softmax 正規化&amp;lt;b&amp;gt;之前&amp;lt;/b&amp;gt;的原始內積分數，尚未轉換成總和為 1 的機率分布。&lt;/font&gt;" vertex="1">
+          <mxGeometry height="160" width="750" x="40" y="578" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qkSimpleExamplePage" name="第 5 页">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qkSimple-corner" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Q＼K&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="40" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSimple-k0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;紅色&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="140" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSimple-k1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;外套&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="250" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSimple-k2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;藍色&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="360" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSimple-k3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;鞋子&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="470" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSimple-q0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;紅色&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="40" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSimple-q1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;外套&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="40" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSimple-q2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;藍色&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="40" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSimple-q3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;鞋子&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="40" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSimple-v0_0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;1.00&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="140" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSimple-v0_1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.55&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="250" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSimple-v0_2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.35&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="360" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSimple-v0_3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.10&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="470" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSimple-v1_0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.90&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="140" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSimple-v1_1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;1.00&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="250" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSimple-v1_2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.20&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="360" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSimple-v1_3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.30&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="470" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSimple-v2_0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.30&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="140" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSimple-v2_1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.15&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="250" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSimple-v2_2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;1.00&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="360" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSimple-v2_3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.50&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="470" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSimple-v3_0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.10&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="140" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSimple-v3_1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.25&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="250" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSimple-v3_2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.85&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="360" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSimple-v3_3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;1.00&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="470" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSimple-h0" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="150" as="sourcePoint" />
+            <mxPoint x="580" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkSimple-h1" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="210" as="sourcePoint" />
+            <mxPoint x="580" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkSimple-h2" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="270" as="sourcePoint" />
+            <mxPoint x="580" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkSimple-h3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="330" as="sourcePoint" />
+            <mxPoint x="580" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkSimple-h4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="390" as="sourcePoint" />
+            <mxPoint x="580" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkSimple-h5" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="450" as="sourcePoint" />
+            <mxPoint x="580" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkSimple-vline0" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="150" as="sourcePoint" />
+            <mxPoint x="40" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkSimple-vline1" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="140" y="150" as="sourcePoint" />
+            <mxPoint x="140" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkSimple-vline2" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="250" y="150" as="sourcePoint" />
+            <mxPoint x="250" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkSimple-vline3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="360" y="150" as="sourcePoint" />
+            <mxPoint x="360" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkSimple-vline4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470" y="150" as="sourcePoint" />
+            <mxPoint x="470" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkSimple-vline5" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="580" y="150" as="sourcePoint" />
+            <mxPoint x="580" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkSimple-hl1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#FF0000,#FF0000);fillColor=none;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="60" width="110" x="140" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSimple-hl2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#FF0000,#FF0000);fillColor=none;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="60" width="110" x="360" y="390" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qkSoftmaxExamplePage" name="第 6 页">
+    <mxGraphModel dx="1414" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qkSoftmax-corner" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Q＼K&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="40" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-k0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;紅色&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="140" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-k1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;外套&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="250" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-k2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;藍色&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="360" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-k3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;鞋子&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="470" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-q0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;紅色&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="40" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-q1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;外套&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-q2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;藍色&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="40" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-q3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;鞋子&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="40" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-v0_0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.39&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="140" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-v0_1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.25&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="250" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-v0_2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.20&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="360" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-v0_3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.16&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="470" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-v1_0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.32&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="140" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-v1_1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.35&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="250" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-v1_2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.16&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="360" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-v1_3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.17&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="470" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-v2_0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.20&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="140" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-v2_1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.17&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="250" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-v2_2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.40&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="360" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-v2_3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.24&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="470" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-v3_0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.15&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="140" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-v3_1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.17&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="250" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-v3_2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.31&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="360" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-v3_3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;0.37&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="470" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-h0" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="160" as="sourcePoint" />
+            <mxPoint x="580" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkSoftmax-h1" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="220" as="sourcePoint" />
+            <mxPoint x="580" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkSoftmax-h2" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="280" as="sourcePoint" />
+            <mxPoint x="580" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkSoftmax-h3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="340" as="sourcePoint" />
+            <mxPoint x="580" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkSoftmax-h4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="400" as="sourcePoint" />
+            <mxPoint x="580" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkSoftmax-h5" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="460" as="sourcePoint" />
+            <mxPoint x="580" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkSoftmax-vline0" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="160" as="sourcePoint" />
+            <mxPoint x="40" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkSoftmax-vline1" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="140" y="160" as="sourcePoint" />
+            <mxPoint x="140" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkSoftmax-vline2" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="250" y="160" as="sourcePoint" />
+            <mxPoint x="250" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkSoftmax-vline3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="360" y="160" as="sourcePoint" />
+            <mxPoint x="360" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkSoftmax-vline4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470" y="160" as="sourcePoint" />
+            <mxPoint x="470" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkSoftmax-vline5" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="580" y="160" as="sourcePoint" />
+            <mxPoint x="580" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkSoftmax-hl1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#FF0000,#FF0000);fillColor=none;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="60" width="110" x="140" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-hl2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#FF0000,#FF0000);fillColor=none;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="60" width="110" x="360" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-sumlabel" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;列總和&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="90" x="600" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-sum0" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;#8776; 1.00&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="90" x="600" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-sum1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;#8776; 1.00&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="90" x="600" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-sum2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;#8776; 1.00&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="90" x="600" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="qkSoftmax-sum3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;#8776; 1.00&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="90" x="600" y="400" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3HeogKqTnfPEILHj-AzR" name="第 7 页">
+    <mxGraphModel dx="1414" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k7Jj9a9Iff7BAIAUHQ76-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;$$W_O$$&lt;/font&gt;" vertex="1">
+          <mxGeometry height="200" width="320" x="80" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="k7Jj9a9Iff7BAIAUHQ76-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;$$head_{n1}$$&lt;/font&gt;" vertex="1">
+          <mxGeometry height="160" width="80" x="440" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sX284qkiNEx9u5w7z-mx-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;$$head_{n2}$$&lt;/span&gt;" vertex="1">
+          <mxGeometry height="160" width="80" x="440" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="sX284qkiNEx9u5w7z-mx-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;$$head_{n3}$$&lt;/span&gt;" vertex="1">
+          <mxGeometry height="160" width="80" x="440" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="sX284qkiNEx9u5w7z-mx-3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="290" as="sourcePoint" />
+            <mxPoint x="620" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sX284qkiNEx9u5w7z-mx-4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="310" as="sourcePoint" />
+            <mxPoint x="620" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sX284qkiNEx9u5w7z-mx-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;$$E&#39;_n$$&lt;/font&gt;" vertex="1">
+          <mxGeometry height="480" width="80" x="680" y="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
